@@ -28,19 +28,21 @@ include_directories(${PROJECT_SOURCE_DIR})
 # Or add the following line to `~/.bash_profile` :
 #   export NVCC_PREPEND_FLAGS='-ccbin /usr/bin/gcc-12.2'
 # set(CUDA_NVCC_FLAGS -ccbin=/usr/bin/gcc-12.2)
-set(TCNN_CUDA_ARCHITECTURES 75) # Turing
+set(TCNN_CUDA_ARCHITECTURES 89) # ADA_LOVELACE
 # --- CUDA (END) ---
 
 
 # --- LibTorch (BEGIN) ---
 # set(Torch_DIR /home/ycy/repo/libtorch/share/cmake/Torch)
-set(Torch_DIR /home/ycy/repo/pytorch/build/libtorch/share/cmake/Torch)
+set(Torch_DIR /home/ycy/repo/pytorch/torch/share/cmake/Torch)
 find_package(Torch REQUIRED)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${TORCH_CXX_FLAGS}")
 # --- LibTorch (END) ---
+
+add_subdirectory(torch_ext)
 
 add_executable(torch_gds
         embedding.cpp
         )
 
-target_link_libraries(torch_gds "${TORCH_LIBRARIES}" pcie_monitor Threads::Threads)
+target_link_libraries(torch_gds "${TORCH_LIBRARIES}" pcie_monitor Threads::Threads mycopy)

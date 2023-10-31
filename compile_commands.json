@@ -1,0 +1,98 @@
+[
+{
+  "directory": "/home/ycy/repo/torch-gds/build",
+  "command": "/usr/bin/c++  -I/home/ycy/repo/torch-gds/. -I/home/ycy/repo/torch-gds -isystem /home/ycy/repo/pytorch/torch/include -isystem /home/ycy/repo/pytorch/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include  -D_GLIBCXX_USE_CXX11_ABI=1 -g -std=gnu++17 -D_GLIBCXX_USE_CXX11_ABI=1 -o CMakeFiles/torch_gds.dir/embedding.cpp.o -c /home/ycy/repo/torch-gds/embedding.cpp",
+  "file": "/home/ycy/repo/torch-gds/embedding.cpp",
+  "output": "CMakeFiles/torch_gds.dir/embedding.cpp.o"
+},
+{
+  "directory": "/home/ycy/repo/torch-gds/build/pcm",
+  "command": "/usr/bin/c++  -I/home/ycy/repo/torch-gds/. -g -std=gnu++17 -o CMakeFiles/PCM_STATIC.dir/bw.cpp.o -c /home/ycy/repo/torch-gds/pcm/bw.cpp",
+  "file": "/home/ycy/repo/torch-gds/pcm/bw.cpp",
+  "output": "pcm/CMakeFiles/PCM_STATIC.dir/bw.cpp.o"
+},
+{
+  "directory": "/home/ycy/repo/torch-gds/build/pcm",
+  "command": "/usr/bin/c++  -I/home/ycy/repo/torch-gds/. -g -std=gnu++17 -o CMakeFiles/PCM_STATIC.dir/cpucounters.cpp.o -c /home/ycy/repo/torch-gds/pcm/cpucounters.cpp",
+  "file": "/home/ycy/repo/torch-gds/pcm/cpucounters.cpp",
+  "output": "pcm/CMakeFiles/PCM_STATIC.dir/cpucounters.cpp.o"
+},
+{
+  "directory": "/home/ycy/repo/torch-gds/build/pcm",
+  "command": "/usr/bin/c++  -I/home/ycy/repo/torch-gds/. -g -std=gnu++17 -o CMakeFiles/PCM_STATIC.dir/dashboard.cpp.o -c /home/ycy/repo/torch-gds/pcm/dashboard.cpp",
+  "file": "/home/ycy/repo/torch-gds/pcm/dashboard.cpp",
+  "output": "pcm/CMakeFiles/PCM_STATIC.dir/dashboard.cpp.o"
+},
+{
+  "directory": "/home/ycy/repo/torch-gds/build/pcm",
+  "command": "/usr/bin/c++  -I/home/ycy/repo/torch-gds/. -g -std=gnu++17 -o CMakeFiles/PCM_STATIC.dir/debug.cpp.o -c /home/ycy/repo/torch-gds/pcm/debug.cpp",
+  "file": "/home/ycy/repo/torch-gds/pcm/debug.cpp",
+  "output": "pcm/CMakeFiles/PCM_STATIC.dir/debug.cpp.o"
+},
+{
+  "directory": "/home/ycy/repo/torch-gds/build/pcm",
+  "command": "/usr/bin/c++  -I/home/ycy/repo/torch-gds/. -g -std=gnu++17 -o CMakeFiles/PCM_STATIC.dir/mmio.cpp.o -c /home/ycy/repo/torch-gds/pcm/mmio.cpp",
+  "file": "/home/ycy/repo/torch-gds/pcm/mmio.cpp",
+  "output": "pcm/CMakeFiles/PCM_STATIC.dir/mmio.cpp.o"
+},
+{
+  "directory": "/home/ycy/repo/torch-gds/build/pcm",
+  "command": "/usr/bin/c++  -I/home/ycy/repo/torch-gds/. -g -std=gnu++17 -o CMakeFiles/PCM_STATIC.dir/msr.cpp.o -c /home/ycy/repo/torch-gds/pcm/msr.cpp",
+  "file": "/home/ycy/repo/torch-gds/pcm/msr.cpp",
+  "output": "pcm/CMakeFiles/PCM_STATIC.dir/msr.cpp.o"
+},
+{
+  "directory": "/home/ycy/repo/torch-gds/build/pcm",
+  "command": "/usr/bin/c++  -I/home/ycy/repo/torch-gds/. -g -std=gnu++17 -o CMakeFiles/PCM_STATIC.dir/pci.cpp.o -c /home/ycy/repo/torch-gds/pcm/pci.cpp",
+  "file": "/home/ycy/repo/torch-gds/pcm/pci.cpp",
+  "output": "pcm/CMakeFiles/PCM_STATIC.dir/pci.cpp.o"
+},
+{
+  "directory": "/home/ycy/repo/torch-gds/build/pcm",
+  "command": "/usr/bin/c++  -I/home/ycy/repo/torch-gds/. -g -std=gnu++17 -o CMakeFiles/PCM_STATIC.dir/resctrl.cpp.o -c /home/ycy/repo/torch-gds/pcm/resctrl.cpp",
+  "file": "/home/ycy/repo/torch-gds/pcm/resctrl.cpp",
+  "output": "pcm/CMakeFiles/PCM_STATIC.dir/resctrl.cpp.o"
+},
+{
+  "directory": "/home/ycy/repo/torch-gds/build/pcm",
+  "command": "/usr/bin/c++  -I/home/ycy/repo/torch-gds/. -g -std=gnu++17 -o CMakeFiles/PCM_STATIC.dir/threadpool.cpp.o -c /home/ycy/repo/torch-gds/pcm/threadpool.cpp",
+  "file": "/home/ycy/repo/torch-gds/pcm/threadpool.cpp",
+  "output": "pcm/CMakeFiles/PCM_STATIC.dir/threadpool.cpp.o"
+},
+{
+  "directory": "/home/ycy/repo/torch-gds/build/pcm",
+  "command": "/usr/bin/c++  -I/home/ycy/repo/torch-gds/. -g -std=gnu++17 -o CMakeFiles/PCM_STATIC.dir/topology.cpp.o -c /home/ycy/repo/torch-gds/pcm/topology.cpp",
+  "file": "/home/ycy/repo/torch-gds/pcm/topology.cpp",
+  "output": "pcm/CMakeFiles/PCM_STATIC.dir/topology.cpp.o"
+},
+{
+  "directory": "/home/ycy/repo/torch-gds/build/pcm",
+  "command": "/usr/bin/c++  -I/home/ycy/repo/torch-gds/. -g -std=gnu++17 -o CMakeFiles/PCM_STATIC.dir/uncore_pmu_discovery.cpp.o -c /home/ycy/repo/torch-gds/pcm/uncore_pmu_discovery.cpp",
+  "file": "/home/ycy/repo/torch-gds/pcm/uncore_pmu_discovery.cpp",
+  "output": "pcm/CMakeFiles/PCM_STATIC.dir/uncore_pmu_discovery.cpp.o"
+},
+{
+  "directory": "/home/ycy/repo/torch-gds/build/pcm",
+  "command": "/usr/bin/c++  -I/home/ycy/repo/torch-gds/. -g -std=gnu++17 -o CMakeFiles/PCM_STATIC.dir/utils.cpp.o -c /home/ycy/repo/torch-gds/pcm/utils.cpp",
+  "file": "/home/ycy/repo/torch-gds/pcm/utils.cpp",
+  "output": "pcm/CMakeFiles/PCM_STATIC.dir/utils.cpp.o"
+},
+{
+  "directory": "/home/ycy/repo/torch-gds/build/pcie",
+  "command": "/usr/bin/c++  -I/home/ycy/repo/torch-gds/. -g -std=gnu++17 -o CMakeFiles/pcie_monitor.dir/pcie_monitor.cpp.o -c /home/ycy/repo/torch-gds/pcie/pcie_monitor.cpp",
+  "file": "/home/ycy/repo/torch-gds/pcie/pcie_monitor.cpp",
+  "output": "pcie/CMakeFiles/pcie_monitor.dir/pcie_monitor.cpp.o"
+},
+{
+  "directory": "/home/ycy/repo/torch-gds/build/torch_ext",
+  "command": "/usr/bin/c++ -Dmycopy_EXPORTS -I/home/ycy/repo/torch-gds/. -I/home/ycy/repo/torch-gds -isystem /home/ycy/repo/pytorch/torch/include -isystem /home/ycy/repo/pytorch/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include  -D_GLIBCXX_USE_CXX11_ABI=1 -g -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o CMakeFiles/mycopy.dir/copy.cpp.o -c /home/ycy/repo/torch-gds/torch_ext/copy.cpp",
+  "file": "/home/ycy/repo/torch-gds/torch_ext/copy.cpp",
+  "output": "torch_ext/CMakeFiles/mycopy.dir/copy.cpp.o"
+},
+{
+  "directory": "/home/ycy/repo/torch-gds/build/torch_ext",
+  "command": "/usr/bin/c++ -Dmyops_EXPORTS -I/home/ycy/repo/torch-gds/. -I/home/ycy/repo/torch-gds -isystem /home/ycy/repo/pytorch/torch/include -isystem /home/ycy/repo/pytorch/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include  -D_GLIBCXX_USE_CXX11_ABI=1 -g -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o CMakeFiles/myops.dir/ops.cpp.o -c /home/ycy/repo/torch-gds/torch_ext/ops.cpp",
+  "file": "/home/ycy/repo/torch-gds/torch_ext/ops.cpp",
+  "output": "torch_ext/CMakeFiles/myops.dir/ops.cpp.o"
+}
+]

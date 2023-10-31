@@ -5,6 +5,7 @@
 #include "pcm/types.h"
 #include <chrono>
 #include <mutex>
+#include <sys/types.h>
 #include <vector>
 #include <unordered_map>
 #include <cstdint>
@@ -43,6 +44,7 @@ public:
     uint64_t EventAggr(uint32_t socket, PCIeEventAggr event);
     uint64_t GetReadAccessCounter();
     uint64_t GetReadBW();
+    uint64_t GetDurationNs() const;
 private:
     PCIeMonitor();
     void getGroupEventRecords(uint32_t run, uint32 groupIdx, uint32_t offset);

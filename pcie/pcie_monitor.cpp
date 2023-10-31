@@ -55,7 +55,7 @@ void PCIeMonitor::getGroupEventRecords(uint32_t run, uint32 groupIdx, uint32_t o
     for (uint32_t skt = 0; skt < numSocket; ++skt)
         for (uint32_t ctr = 0; ctr < group.size(); ++ctr) {
             evRecords[run][skt][ctr + offset] = m->getPCIeCounterData(skt, ctr);
-            printf("%lu, %lu, %lu\n", ctr, offset, evRecords[run][skt][ctr + offset]);
+            // printf("%lu, %lu, %lu\n", ctr, offset, evRecords[run][skt][ctr + offset]);
         }
 
     if (run == after) {
@@ -100,6 +100,10 @@ uint64_t PCIeMonitor::GetReadAccessCounter() {
 
 uint64_t PCIeMonitor::GetReadBW() {
     return (GetReadAccessCounter() * 64ULL) / (double(durationNs)/1e9);
+}
+
+uint64_t PCIeMonitor::GetDurationNs() const {
+    return durationNs;
 }
 
 uint64_t PCIeMonitor::Event(PCIeEventIdx event) {
